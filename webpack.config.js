@@ -83,7 +83,7 @@ if (process.env.NODE_ENV === 'production') {
             }
         }),
         new webpack.optimize.CommonsChunkPlugin({
-            name: ['common', 'config-admin']
+            name: ['commons', 'config-admin']
         }),
         new webpack.optimize.UglifyJsPlugin({
             sourceMap: true,
